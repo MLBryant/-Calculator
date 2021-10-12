@@ -30,9 +30,6 @@ reader.question("What would you like to calculate?", function(input){
 		console.log(Math.sqrt(num1));
 	}
 
-	console.log('mathSymbol ', mathSymbol);
-
-
 	// This line closes the connection to the command line interface.
 	reader.close()
 
